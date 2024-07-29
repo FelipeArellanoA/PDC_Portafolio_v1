@@ -1,0 +1,131 @@
+body {
+    background-image: url(../img/background_img.jpg);
+    background-size: contain;
+    background-size: 3000px;
+    margin: 0;
+}
+
+.tituloNavbar {
+    text-align: center;
+    padding-top: 3%;
+    font-size: 110%;
+}
+
+.underNavInfo {
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 7%;
+    padding-bottom: 2%;
+    background-color: #FFEAEE;
+    display: none;
+}
+
+.sobreMiDesc {
+    font-size: small;
+}
+
+.direccionPng,
+.direccionCasa {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: small;
+}
+
+.contactoEnter {
+    background-color: white;
+    text-align: center;
+    font-size: smaller;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 4.1%;
+    display: none;
+}
+
+#btnContacto {
+    font-size: small;
+}
+
+.contactoBox {
+
+    background-color: rgb(183, 181, 181);
+    margin-left: 38%;
+    margin-right: 40%;
+    padding: 3%;
+    position: fixed;
+    overflow-y: auto;
+    margin-top: 8%;
+    display: none;
+    border-radius: 0.5%;
+    z-index: 2;
+}
+
+.textareaContacto {
+    margin-top: 3%;
+}
+
+#btnContactoEnviar {
+    background-color: #91FFBB;
+    border-radius: 7%;
+}
+
+#btnContactoCancelar {
+    background-color: #FFC6B5;
+    border-radius: 7%;
+}
+
+.cardsArq {
+    width: 30%;
+    margin-left: 39%;
+    margin-right: 10%;
+    margin-top: -0.7%;
+    padding: 3%;
+    position: fixed;
+    overflow-y: auto;
+    border-radius: 0.5%;
+    z-index: 0;
+    display: none;
+
+}
+
+.cardsW{
+    display: none;
+}
+
+/*--------------------------------------------------------*/
+
+.proyectosTitulo{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+/*--------------------------------------------------------*/
+
+a, a:focus, a:link, a:visited, a:active{
+    color: transparent;
+    text-decoration: none;
+    border: inherit;
+    outline: none;
+    outline-color: transparent;
+}
+
+hr{
+    margin: 1%;
+}
+
+.listaDiseñoWeb{
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: none;
+}
+
+.listaDWItem{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.listaDWItem:hover, .listaDWItem:visited{
+    background-color: lightgray;
+}

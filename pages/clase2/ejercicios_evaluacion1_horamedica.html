@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fomulario Hora Médica</title>
+</head>
+<body>
+    <h1>FORMULARIO</h1>
+<br>
+    <form action="" method="post">
+
+        <label for="Nombre">NOMBRE</label><br>
+        <input type="text" name="nombre" id="nombre" placeholder="Introduce nombre y apellido" required>
+   <br><br>
+   
+       <label for="Direccion">DIRECCIÓN</label><br>
+       <input type="text" name="direccion" id="direccion" placeholder="Introduce dirección" required>
+   <br><br>
+   
+       <label for="Especialidad Medica">ESPECIALIDAD MÉDICA</label><br>
+       <select name="especialidad medica" id="especialidad medica" required>
+        <option value="...">...</option>
+        <option value="medicina interna">MEDICINA INTERNA</option>
+        <option value="medicina general">MEDICINA GENERAL</option>
+        <option value="traumatologia">TRAUMATOLOGÍA</option>
+        <option value="nutricionista">NUTRICIONISTA</option>
+        <option value="pediatra">PEDIATRA</option>
+       </select>
+      
+   <br><br> 
+   
+       <label for="fecha">FECHA</label><br>
+       <input type="date" name="fecha" id="fecha" required>
+   <br><br> 
+   
+       <label for="hora">HORA</label><br>
+       <input type="time" name="hora" id="hora" required>
+   <br><br> 
+   
+       <label for="correo">CORREO</label><br>
+       <input type="email" name="correo" id="correo" pattern="^[^@]+@[^@]+\.[a-zA-Z]{2,}$" required placeholder="Email">
+   <br><br>
+
+    </form>
+ 
+
+<a href="ejercicios_evaluacion_2_horamedica.html" target="_self">
+    <button>CONFIRMAR</button>
+
+</a>
+
+
+</body>
+</html>
